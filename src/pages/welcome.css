@@ -1,0 +1,96 @@
+.component-1-icon11,
+.welcome-child {
+  position: absolute;
+  width: 90rem;
+  height: 51.81rem;
+}
+.component-1-icon11 {
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.welcome-child {
+  top: 69.5rem;
+  left: 32.25rem;
+}
+.p {
+  margin: 0;
+}
+.buy-store-send-container {
+  position: absolute;
+  top: 14.13rem;
+  left: 2.63rem;
+  font-weight: 500;
+}
+.connecting-you-to,
+.welcome-to-zi {
+  position: absolute;
+  top: 10.44rem;
+  left: 2.25rem;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.welcome-to-zi {
+  top: 6.88rem;
+  left: 3.81rem;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+}
+.get-started {
+  position: absolute;
+  top: 0.06rem;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: center;
+}
+.material-symbolsarrow-right-a-icon {
+  position: absolute;
+  top: 0;
+  left: 6.31rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.get-started-parent {
+  position: absolute;
+  top: 1.19rem;
+  left: 5.5rem;
+  width: 7.81rem;
+  height: 1.5rem;
+}
+.buy-store-send-and-swap-toke-parent,
+.frame-button {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-pink);
+  top: 28.69rem;
+  left: 4.25rem;
+  width: 18.75rem;
+  height: 3.88rem;
+}
+.buy-store-send-and-swap-toke-parent {
+  top: 5.5rem;
+  left: 31.44rem;
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  width: 27.19rem;
+  height: 40.75rem;
+}
+.welcome {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 51.81rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}

@@ -1,0 +1,141 @@
+.component-1-icon10,
+.newimport-child {
+  position: absolute;
+  width: 90rem;
+  height: 51.81rem;
+}
+.component-1-icon10 {
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.newimport-child {
+  top: 69.5rem;
+  left: 32.25rem;
+}
+.this-creates-a {
+  position: absolute;
+  top: 12.06rem;
+  left: 3.38rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 20.44rem;
+}
+.we-can-have {
+  position: absolute;
+  top: 7.94rem;
+  left: 2.38rem;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+.material-symbolsadd-icon {
+  position: absolute;
+  top: 0;
+  left: 7.88rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.create-wallet-parent,
+.group-wrapper {
+  position: absolute;
+  top: 1.19rem;
+  left: 4.69rem;
+  width: 9.38rem;
+  height: 1.5rem;
+}
+.group-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-pink);
+  top: 18.63rem;
+  left: 4.25rem;
+  border-radius: var(--br-3xs);
+  width: 18.75rem;
+  height: 3.88rem;
+  overflow: hidden;
+}
+.new-to-zi {
+  position: absolute;
+  top: 2.88rem;
+  left: 5.56rem;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+}
+.this-creates-a-new-wallet-and-parent {
+  position: absolute;
+  top: 12.31rem;
+  left: 16.25rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  width: 27.19rem;
+  height: 27.13rem;
+  overflow: hidden;
+}
+.we-can-have1 {
+  position: absolute;
+  top: 8.44rem;
+  left: 4.5rem;
+  font-weight: 600;
+}
+.import-wallet {
+  position: absolute;
+  top: 0.06rem;
+  left: 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: center;
+}
+.material-symbolsadd-icon1 {
+  position: absolute;
+  top: 0;
+  left: 7.94rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.import-wallet-parent {
+  position: absolute;
+  top: 1.19rem;
+  left: 4.69rem;
+  width: 9.44rem;
+  height: 1.5rem;
+}
+.import-wallet1 {
+  position: absolute;
+  top: 2.88rem;
+  left: 7.31rem;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+}
+.import-your-existing {
+  position: absolute;
+  top: 11.56rem;
+  left: 0.88rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 25.5rem;
+}
+.we-can-have-you-set-up-one-now-parent {
+  position: absolute;
+  top: 12.31rem;
+  left: 46.56rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  width: 27.19rem;
+  height: 27.13rem;
+  overflow: hidden;
+}
+.newimport {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 51.81rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
