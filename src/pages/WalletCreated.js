@@ -13,13 +13,13 @@ const WalletCreated = () => {
   }, []);
 
   return (
-    <div className="relative bg-white w-full h-[51.81rem] overflow-hidden text-center text-[1.88rem] text-lavenderblush font-lato">
+    <div className="relative w-full h-[51.81rem] overflow-hidden text-center text-[1.88rem] text-lavenderblush font-lato">
       <img
         className="absolute top-[17.88rem] left-[37rem] w-[16rem] h-[16rem]"
         alt=""
         src="/pheyeslash.svg"
       />
-      <img
+      {/* <img
         className="absolute top-[0rem] left-[0rem] w-[90rem] h-[51.81rem] overflow-hidden"
         alt=""
         src="/component-1.svg"
@@ -28,7 +28,7 @@ const WalletCreated = () => {
         className="absolute top-[69.5rem] left-[32.25rem] w-[90rem] h-[51.81rem]"
         alt=""
         src="/rectangle-2.svg"
-      />
+      /> */}
       <div className="absolute top-[5.5rem] left-[31.44rem] rounded-3xs bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)] w-[27.19rem] h-[40.75rem] overflow-hidden">
         <div className="absolute top-[2.94rem] left-[7.38rem] font-extrabold">
           <p className="m-0">Wallet created</p>

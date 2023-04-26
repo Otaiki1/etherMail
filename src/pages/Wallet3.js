@@ -9,7 +9,7 @@ const Wallet3 = () => {
   }, [navigate]);
 
   return (
-    <div className="relative bg-white w-full h-[51.81rem] overflow-hidden text-center text-[1rem] text-gray-100 font-lato">
+    <div className="relative w-full h-[51.81rem] overflow-hidden text-center text-[1rem] text-gray-100 font-lato">
       <img
         className="absolute top-[0rem] left-[0rem] w-[90rem] h-[51.81rem] overflow-hidden"
         alt=""
