@@ -1,9 +1,10 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import WalletTopNav from "../components/WalletTopNav";
-import UserBoard from "../components/UserBoard";
-import WalletButtons from "../components/WalletButtons";
-import WalletBottomNav from "../components/WalletBottomNav";
+import WalletTopNav from "../components/Wallet/WalletTopNav";
+import UserBoard from "../components/Wallet/UserBoard";
+import WalletButtons from "../components/Wallet/WalletButtons";
+import WalletBottomNav from "../components/Wallet/WalletBottomNav";
+import Tokens from "../components/Wallet/Tokens";
 
 const Wallet3 = () => {
   const navigate = useNavigate();
@@ -13,10 +14,11 @@ const Wallet3 = () => {
   }, [navigate]);
 
   return (
-    <div className="relative rounded-3xs bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)] w-[27.19rem] h-[40.75rem] overflow-hidden text-center text-[1.5rem] text-white font-lato">
+    <div className="relative rounded-3xs bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)] w-[27.19rem] h-[40.75rem] overflow-hidden text-[1.5rem] text-white font-lato">
       <WalletTopNav />
       <UserBoard />
       <WalletButtons />
+      <Tokens />
       <WalletBottomNav />
     </div>
     // <div className="relative w-full h-[51.81rem] overflow-hidden text-center text-[1rem] text-gray-100 font-lato bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)]">

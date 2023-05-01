@@ -3,7 +3,9 @@ export default function UserBoard() {
     <div className="w-full bg-white h-[30%] rounded-t-xl py-6">
       <div className="flex flex-col items-center space-y-2">
         <div className="rounded-31xl bg-gray-100 w-[12.5rem] h-[3.25rem]">
-          <p className="text-[0.88rem] font-medium">0xe8984ef2dadb5b3474</p>
+          <p className="text-[0.88rem] font-medium text-center">
+            0xe8984ef2dadb5b3474
+          </p>
         </div>
         <div>
           <img
