@@ -1,4 +1,4 @@
-export default function WalletNav() {
+export default function WalletTopNav() {
   return (
     <div className="rounded-3xs w-full h-[10%] overflow-hidden text-[2.5rem] text-white flex justify-around pt-4">
       <div>

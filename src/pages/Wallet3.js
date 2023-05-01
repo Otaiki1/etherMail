@@ -5,6 +5,7 @@ import UserBoard from "../components/Wallet/UserBoard";
 import WalletButtons from "../components/Wallet/WalletButtons";
 import WalletBottomNav from "../components/Wallet/WalletBottomNav";
 import Tokens from "../components/Wallet/Tokens";
+import Frame from "../components/UI/Frame";
 
 const Wallet3 = () => {
   const navigate = useNavigate();
@@ -14,13 +15,13 @@ const Wallet3 = () => {
   }, [navigate]);
 
   return (
-    <div className="relative rounded-3xs bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)] w-[27.19rem] h-[40.75rem] overflow-hidden text-[1.5rem] text-white font-lato">
+    <Frame>
       <WalletTopNav />
       <UserBoard />
-      <WalletButtons />
+      <WalletButtons onSend={onGroupContainer4Click} />
       <Tokens />
       <WalletBottomNav />
-    </div>
+    </Frame>
     // <div className="relative w-full h-[51.81rem] overflow-hidden text-center text-[1rem] text-gray-100 font-lato bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)]">
     //   {/* <img
     //     className="absolute top-[0rem] left-[0rem] w-[90rem] h-[51.81rem] overflow-hidden"

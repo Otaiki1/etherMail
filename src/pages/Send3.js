@@ -1,5 +1,9 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import Frame from "../components/UI/Frame";
+import WalletTopNav from "../components/Wallet/WalletTopNav";
+import SendForm from "../components/Send/SendForm";
+import AddressBar from "../components/Wallet/AddressBar";
 
 const Send3 = () => {
   const navigate = useNavigate();
@@ -9,8 +13,25 @@ const Send3 = () => {
   }, [navigate]);
 
   return (
-    <div className="relative bg-white w-full h-[51.81rem] overflow-hidden text-center text-[2.5rem] text-white font-lato">
-      <img
+    <Frame>
+      <WalletTopNav />
+
+      <div className="bg-whitesmoke h-[88%] rounded-t-lg">
+        <div className="w-[70%] flex justify-between pt-5 pl-5">
+          <div>
+            <img src="./materialsymbolsarrowcircleleftrounded.svg" alt="" />
+          </div>
+          <AddressBar address="0xe8984ef2dadb5b3474" />
+        </div>
+        <SendForm submitForm={onRectangleButtonClick} />
+      </div>
+    </Frame>
+  );
+};
+
+export default Send3;
+{
+  /* <img
         className="absolute top-[0rem] left-[0rem] w-[90rem] h-[51.81rem] overflow-hidden"
         alt=""
         src="/component-1.svg"
@@ -19,8 +40,10 @@ const Send3 = () => {
         className="absolute top-[69.5rem] left-[32.25rem] w-[90rem] h-[51.81rem]"
         alt=""
         src="/rectangle-2.svg"
-      />
-      <div className="absolute top-[5.5rem] left-[31.44rem] rounded-3xs bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)] w-[27.19rem] h-[40.75rem] overflow-hidden">
+      /> */
+}
+{
+  /* <div className="absolute top-[5.5rem] left-[31.44rem] rounded-3xs bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)] w-[27.19rem] h-[40.75rem] overflow-hidden">
         <div className="absolute top-[2rem] left-[7.31rem] rounded-8xs bg-white w-[12.63rem] h-[3.25rem]" />
         <img
           className="absolute top-[1.97rem] left-[22.09rem] w-[3.31rem] h-[3.31rem]"
@@ -85,8 +108,5 @@ const Send3 = () => {
         alt=""
         src="/materialsymbolscontentcopyoutlinerounded2.svg"
       />
-    </div>
-  );
-};
-
-export default Send3;
+    </div> */
+}
