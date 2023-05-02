@@ -1,5 +1,8 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import Frame from "../components/UI/Frame";
+import WalletTopNav from "../components/Wallet/WalletTopNav";
+import AddressBar from "../components/Wallet/AddressBar";
 
 const Wallet1 = () => {
   const navigate = useNavigate();
@@ -9,7 +12,16 @@ const Wallet1 = () => {
   }, [navigate]);
 
   return (
-    <div className="relative w-full h-[51.81rem] overflow-hidden text-center text-[1rem] text-gray-100 font-lato">
+    <Frame>
+      <WalletTopNav />
+      <div className="bg-whitesmoke h-[88%] rounded-t-lg">
+        <AddressBar address="0xe8984ef2dadb5b3474" />
+      </div>
+    </Frame>
+  );
+};
+{
+  /* <div className="relative w-full h-[51.81rem] overflow-hidden text-center text-[1rem] text-gray-100 font-lato">
       <img
         className="absolute top-[0rem] left-[0rem] w-[90rem] h-[51.81rem] overflow-hidden"
         alt=""
@@ -183,8 +195,6 @@ const Wallet1 = () => {
         alt=""
         src="/materialsymbolsarrowdropdowncirclerounded.svg"
       />
-    </div>
-  );
-};
-
+    </div> */
+}
 export default Wallet1;

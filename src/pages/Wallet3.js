@@ -6,6 +6,7 @@ import WalletButtons from "../components/Wallet/WalletButtons";
 import WalletBottomNav from "../components/Wallet/WalletBottomNav";
 import Tokens from "../components/Wallet/Tokens";
 import Frame from "../components/UI/Frame";
+import Token from "../components/Wallet/Token";
 
 const Wallet3 = () => {
   const navigate = useNavigate();
@@ -19,7 +20,9 @@ const Wallet3 = () => {
       <WalletTopNav />
       <UserBoard />
       <WalletButtons onSend={onGroupContainer4Click} />
-      <Tokens />
+      <Tokens>
+        <Token />
+      </Tokens>
       <WalletBottomNav />
     </Frame>
     // <div className="relative w-full h-[51.81rem] overflow-hidden text-center text-[1rem] text-gray-100 font-lato bg-gray-200 shadow-[0px_0px_10px_rgba(255,_255,_255,_0.2)]">
